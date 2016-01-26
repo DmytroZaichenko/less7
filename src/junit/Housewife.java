@@ -12,9 +12,11 @@ public class Housewife {
 
     public void feed(Cat[] cats){
         for (Cat c : cats){
-            if (c.isHungry()){
-
-            }else {
+            if (c.isHungry()) {
+                if (c.isHungry()) {
+                    c.setHungry(Boolean.FALSE);
+                }
+            } else {
                 throw new CatNotHungryException(c.getName() + " is not hungry");
             }
         }

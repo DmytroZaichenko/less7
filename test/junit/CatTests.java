@@ -35,7 +35,13 @@ public class CatTests {
     public void checkCatisHungryDefaultValue(){
         boolean isHungry  = cat.isHungry();
         assertTrue("cat should be hungry by default.", isHungry);
+    }
 
+    @Test
+    public void checkSetName(){
+        String name = "Mikky";
+        cat.setName(name);
+        assertEquals(name, cat.getName());
     }
 
 }

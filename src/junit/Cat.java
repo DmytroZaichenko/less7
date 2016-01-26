@@ -30,7 +30,7 @@ public class Cat {
         return isHungry;
     }
 
-    public void setHungry(boolean hungry) {
+    public void setHungry(Boolean hungry) {
         isHungry = hungry;
     }
 
