@@ -1,4 +1,4 @@
-package reprository;
+package repository;
 
 public interface Service {
 
